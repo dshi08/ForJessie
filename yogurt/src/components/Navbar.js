@@ -35,22 +35,22 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to= '/' className='nav-links' onClick={(closeMobileMenu)}>
-                            Placeholder2
+                            <Link to= '/place3' className='nav-links' onClick={(closeMobileMenu)}>
+                            Place2
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to= '/' className='nav-links' onClick={(closeMobileMenu)}>
-                            Placeholder3
+                            <Link to= 'j/place3' className='nav-links' onClick={(closeMobileMenu)}>
+                            Place3
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to= '/' className='nav-links' onClick={(closeMobileMenu)}>
-                            Placeholder4
+                            <Link to= '/Place4' className='nav-links-mobile' onClick={(closeMobileMenu)}>
+                            Place4
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>PLACE FOR STUFF</Button>}
+                    {button && <Button buttonStyle='btn--outline'>PLACE 4</Button>}
                 </div>
             </nav>
         </>
