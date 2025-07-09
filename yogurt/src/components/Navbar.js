@@ -54,7 +54,12 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>JessieOnly</Button>}
+                    {button && <Button buttonStyle='btn--outline'
+                                       buttonSize='btn--large'
+                                       to="/jessie-only">
+                                        JessieOnly
+                            </Button>
+                    }
                 </div>
             </nav>
         </>
