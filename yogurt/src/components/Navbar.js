@@ -23,7 +23,7 @@ function Navbar() {
             <nav className="navbar">
                 <div className="navbar-container">
                     <Link to="/" className="navbar-logo">
-                    4JESSIE <img src="/hearts.gif" alt="Logo" className="navbar-icon" />
+                    4Jessie <img src="/hearts.gif" alt="Logo" className="navbar-icon" />
                     </Link>
                     <div className='menu-icon' onClick={handleClick}>
                         <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
@@ -35,22 +35,22 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to= '/place3' className='nav-links' onClick={(closeMobileMenu)}>
-                            Place2
+                            <Link to= '/cats' className='nav-links' onClick={(closeMobileMenu)}>
+                            Cats
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to= 'j/place3' className='nav-links' onClick={(closeMobileMenu)}>
-                            Place3
+                            <Link to= '/foodie' className='nav-links' onClick={(closeMobileMenu)}>
+                            Foodie
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link to= '/Place4' className='nav-links-mobile' onClick={(closeMobileMenu)}>
-                            Place4
+                            <Link to= '/jessie-only' className='nav-links-mobile' onClick={(closeMobileMenu)}>
+                            JessieOnly
                             </Link>
                         </li>
                     </ul>
-                    {button && <Button buttonStyle='btn--outline'>PLACE 4</Button>}
+                    {button && <Button buttonStyle='btn--outline'>JessieOnly</Button>}
                 </div>
             </nav>
         </>
