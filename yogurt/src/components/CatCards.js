@@ -40,9 +40,9 @@ function CatCards() {
                 path='/' 
                 />
                 <CardItem 
-                src="/cats/tabby_cat.jpg"
-                text="orange is the crazy one"
-                label="Tabby"
+                src="/cats/marmar.jpg"
+                text="Its Marmar"
+                label="Orange"
                 // change path
                 path='/' 
                 />
@@ -70,7 +70,7 @@ function CatCards() {
                 path='/' 
                 />
                 <CardItem 
-                src="/cats/tuxedo_cat.jpeg"
+                src="/cats/tuxedo_cat.jpg"
                 text="It's Milky ! :D"
                 label="Tuxedo Cat"
                 // change path
