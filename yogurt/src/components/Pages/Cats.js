@@ -1,9 +1,13 @@
-import React from "react";
 import '../../App.css';
+import Cards from '../Cards';
+import React from 'react';
 
-
-export default function Cats() {
-    return <h1 className="cats">
-        Cats
-    </h1>
+function Cats () {
+    return (
+        <>
+         <Cards />
+        </>
+    )
 }
+
+export default Cats;
