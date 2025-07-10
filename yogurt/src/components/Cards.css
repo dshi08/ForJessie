@@ -5,6 +5,7 @@
 
 h1 {
     text-align: center;
+    margin-bottom: 40px;
 }
 
 .cards-container {
@@ -43,9 +44,9 @@ h1 {
     flex-flow: column;
     width: 100%;
     /* change */
-    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
-    -webkit-filter: drop-shadow(0 6px 20px rgba(110, 90, 100, 0.002));
-    filter: drop-shadow(0 6px 20px rgba(0, 0, 0, 0.1));
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
+    filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
     overflow: hidden;
     text-decoration: none;
@@ -53,9 +54,10 @@ h1 {
 
 .cards-item-pic-wrap {
     position: relative;
-    width: 100%;
-    padding-top: 67%;
+    width: 300px;
+    height: 200px;
     overflow: hidden;
+    border-radius: 10px;
 }
 
 .fade-img {
@@ -64,6 +66,9 @@ h1 {
 }
 
 .cards-item-pic-wrap::after {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-style: normal;
     content: attr(data-category);
     position: absolute;
     bottom: 0;
@@ -73,8 +78,8 @@ h1 {
     font-size: 12px;
     font-weight: 700;
     /* change */
-    color: white;
-    background-color: #1f98f4;
+    color: black;
+    background-color: pink;
     box-sizing: border-box;
 }
 
@@ -90,7 +95,7 @@ h1 {
     height: 100%;
     max-height: 100%;
     object-fit: cover;
-    transition: all 0.2s linear;
+    transition: all 0.25s linear;
 }
 
 .cards-item-img:hover {
@@ -109,19 +114,19 @@ h1 {
     line-height: 24px;
 }
 @media only screen and (min-width: 1200px) {
-    .content__blog__container {
+    .content-blog-container {
       width: 84%;
     }
   }
   
   @media only screen and (min-width: 1024px) {
-    .cards__items {
+    .cards-items {
       display: flex;
     }
   }
   
   @media only screen and (max-width: 1024px) {
-    .cards__item {
+    .cards-item {
       margin-bottom: 2rem;
     }
   }

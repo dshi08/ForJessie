@@ -1,9 +1,13 @@
-import React from "react";
 import '../../App.css';
+import FoodieCards from '../FoodieCards';
+import React from 'react';
 
-
-export default function Foodie() {
-    return <h1 className="foodie">
-        Foodie
-    </h1>
+function Foodie () {
+    return (
+        <>
+         <FoodieCards />
+        </>
+    )
 }
+
+export default Foodie;

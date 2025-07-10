@@ -1,20 +1,19 @@
 import React from 'react'
+import './Cards.css'
 import CardItem from './CardItem'
-import './Cards.css';
 
-function Cards() {
+function FoodieCards() {
   return (
     <div className='cards'>
-      <h1>Test Test</h1>
+      <h1>Foooooooood</h1>
       <div className='cards-container'>
         <div className='cards-wrapper'>
             <ul className='cards-items'>
                 <CardItem 
-                src="/hearts.gif"
-                text="cat test"
-                label="cat"
-                // change path
-                path='/' 
+                src="test_cat.jpeg"
+                text="food test"
+                label="not cat"
+                path='/'
                 />
             </ul>
         </div>
@@ -23,4 +22,4 @@ function Cards() {
   )
 }
 
-export default Cards
+export default FoodieCards

@@ -1,11 +1,11 @@
 import '../../App.css';
-import Cards from '../Cards';
+import CatCards from '../CatCards';
 import React from 'react';
 
 function Cats () {
     return (
         <>
-         <Cards />
+         <CatCards />
         </>
     )
 }
