@@ -1,5 +1,5 @@
 import '../../App.css';
-import Love from '../love';
+import Love from '../Love';
 import React from 'react';
 
 function Home () {
