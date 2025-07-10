@@ -19,7 +19,7 @@ h1 {
 
 .card-wrapper {
     position: relative;
-    margin: 50 px 0 45px;
+    margin: 50px 0 45px;
 }
 
 .cards-items {
@@ -30,13 +30,6 @@ h1 {
     display: flex;
     flex: 1;
     margin: 0 1rem;
-}
-
-.cards-item-link {
-    display: flex;
-    flex: 1;
-    margin: 0 1rem;
-    border-radius: 10px;
 }
 
 .cards-item-link {
@@ -54,8 +47,8 @@ h1 {
 
 .cards-item-pic-wrap {
     position: relative;
-    width: 300px;
-    height: 200px;
+    width: 345px;
+    height: 230px;
     overflow: hidden;
     border-radius: 10px;
 }

@@ -15,6 +15,78 @@ function FoodieCards() {
                 label="not cat"
                 path='/'
                 />
+                <CardItem 
+                src="test_cat.jpeg"
+                text="food test"
+                label="not cat"
+                path='/'
+                />
+                <CardItem 
+                src="test_cat.jpeg"
+                text="food test"
+                label="not cat"
+                path='/'
+                />
+            </ul>
+            <ul className='cards-items'>
+                <CardItem 
+                src="test_cat.jpeg"
+                text="food test"
+                label="not cat"
+                path='/'
+                />
+                <CardItem 
+                src="test_cat.jpeg"
+                text="food test"
+                label="not cat"
+                path='/'
+                />
+                <CardItem 
+                src="test_cat.jpeg"
+                text="food test"
+                label="not cat"
+                path='/'
+                />
+            </ul>
+            <ul className='cards-items'>
+                <CardItem 
+                src="test_cat.jpeg"
+                text="food test"
+                label="not cat"
+                path='/'
+                />
+                <CardItem 
+                src="test_cat.jpeg"
+                text="food test"
+                label="not cat"
+                path='/'
+                />
+                <CardItem 
+                src="test_cat.jpeg"
+                text="food test"
+                label="not cat"
+                path='/'
+                />
+            </ul>
+            <ul className='cards-items'>
+                <CardItem 
+                src="test_cat.jpeg"
+                text="food test"
+                label="not cat"
+                path='/'
+                />
+                <CardItem 
+                src="test_cat.jpeg"
+                text="food test"
+                label="not cat"
+                path='/'
+                />
+                <CardItem 
+                src="test_cat.jpeg"
+                text="food test"
+                label="not cat"
+                path='/'
+                />
             </ul>
         </div>
       </div>
