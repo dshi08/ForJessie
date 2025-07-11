@@ -29,7 +29,7 @@ function Love() {
         <div className='love-content'>
           <audio ref={audioRef} src="/audio/meow.mp3" preload='auto' />
           <h1>Look what I made!!</h1>
-          <p>15 hour project btw</p>
+          <p>16 hour project btw</p>
           <div className="love-btns">
             <Button 
               className='btns' 

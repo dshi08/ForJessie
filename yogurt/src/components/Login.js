@@ -28,7 +28,7 @@ function Login() {
              type="password"
              value={password}
              onChange={(e) => setPassword(e.target.value)}
-             placeholder="Enter secret password"
+             placeholder="What's the password?"
              autoFocus
              required/>
           </div>
