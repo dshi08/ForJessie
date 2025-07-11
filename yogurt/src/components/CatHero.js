@@ -5,7 +5,7 @@ function CatHero() {
   return (
     <div className='love-container'>
       <video className='video-background'
-            src='/videos/cat.mp4'
+            src='/videos/cat-petting.mov'
             autoPlay
             muted
             loop

@@ -7,6 +7,7 @@ import Home from './components/Pages/Home'
 import Cats from './components/Pages/Cats';
 import Foodie from './components/Pages/Foodie';
 import JessieOnly from './components/Pages/JessieOnly';
+import Album from './components/Pages/Album';
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
           <Route path = '/cats' Component={Cats}/>
           <Route path = '/foodie' Component={Foodie}/>
           <Route path = '/jessie-only' Component={JessieOnly}/>
+          <Route path = '/album' Component={Album}/>
         </Routes>
        </Router>
       </>
